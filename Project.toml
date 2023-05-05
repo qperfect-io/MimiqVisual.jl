@@ -1,0 +1,13 @@
+name = "MimiqVisual"
+uuid = "ef755e0c-c87d-458d-9d33-e956d56108e0"
+authors = ["Shannon Whitlock <whitlock@unistra.fr>"]
+version = "0.1.0"
+
+[deps]
+MimiqCircuits = "281e006c-9395-434b-8b58-3065901f9db3"
+PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+[compat]
+MimiqCircuits = "0.3"

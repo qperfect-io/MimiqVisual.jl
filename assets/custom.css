@@ -1,0 +1,80 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css" />
+  
+<style>
+
+/*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
+
+
+div h1 { background-image:url('https://i0.wp.com/qperfect.io/wp-content/uploads/2023/04/qperfect_logo_wh-1.webp') !important; 
+         background-size:auto 50px;
+         background-position: 10px 10px;
+         background-repeat:no-repeat;
+         background-color: #0c7e8f !important; 
+         display: flex;
+         align-items: center;
+         padding-left: 70px;
+         min-height: 70px;
+         color:white; 
+         font-family: 'Lato',sans-serif !important; 
+         font-size: 28px !important;
+         font-weight: 800 !important; 
+         line-height: 30px !important;}
+
+
+div h2 { color:#0c7e8f !important; font-family: 'Lato',sans-serif !important; font-size: 20px !important; font-weight: 800 !important; line-height: 20px !important; padding:0px;}
+
+div h3 { color: #444444 !important; font-family: 'Lato',sans-serif !important; font-size: 18px !important; font-weight: 800 !important; line-height: 18px !important; padding-left:0px;}
+
+div p { color: #444444; font-family: "Lato", serif; !important; font-size:12pt !important;}
+
+body {
+   font-family: 'Lato';
+}
+
+div.cell.code_cell.selected, div.cell.code_cell.selected.jupyter-soft-selected, div.jp-CodeCell.jp-mod-selected {
+    border: none;
+    background: transparent;
+    box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
+    border-radius: 0px
+    border-left-width: 1px !important;
+}
+
+div.cell.text_cell.selected, div.jp-MarkdownCell div div div {
+    border-style:none;
+}
+
+div.jp-MarkdownCell div div.jp-Collapser {
+    visibility:hidden
+}
+
+div.cell.text_cell.selected::before, div.jp-MarkdownCell.jp-mod-rendered.jp-Notebook-cell.jp-mod-active.jp-mod-selected div div {
+    background:white;
+}
+
+div.cell.code_cell.selected::before, div.cell.selected.jupyter-soft-selected::before {
+    background:#F5BD1E;
+}
+div.cell.code_cell.rendered.selected::before {
+    background:#F5BD1E;
+}
+div.cell.code_cell.rendered.running.selected::before {
+    background:#F5BD1E;
+}
+
+:root {
+    --jp-brand-color1: #F5BD1E;
+}
+
+.output_wrapper, .output {
+    height:auto !important;
+    max-height:1000px;  /* your desired max-height here */
+}
+.output_scroll {
+    box-shadow:none !important;
+    webkit-box-shadow:none !important;
+}
+
+
+</style>
